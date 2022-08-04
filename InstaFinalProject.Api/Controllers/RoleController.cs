@@ -48,5 +48,11 @@ namespace InstaFinalProject.Api.Controllers
             return _IRoleService.updateRole(role);
         }
 
+        [HttpPut]
+        public bool updateRoleksjfnf(Role role)
+        {
+            return _IRoleService.updateRole(role);
+        }
+
     }
 }
